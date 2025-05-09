@@ -16,7 +16,7 @@ export const TextRevealCard = ({
   children?: React.ReactNode
   className?: string
 }) => {
-  const [IsMounted, setIsMounted] = useState(false)
+  const [, setIsMounted] = useState(false)
   const [isHovered, setIsHovered] = useState(false)
   const [isPhone, setIsPhone] = useState(false)
 
